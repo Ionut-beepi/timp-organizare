@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TimeQuest - Organizarea timpului</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="titlu">
+    <h1>TimeQuest</h1>
+    <p>Organizează-ți timpul și atinge-ți obiectivele!</p>
+  </div>
+
+  <div id="bun-venit">
+    <h2>Bun venit!</h2>
+    <p>Ești pregătit să-ți organizezi ziua?</p>
+  </div>
+
+  <div id="scor">
+    <h3>Scorul quizului</h3>
+    <p>0 XP</p>
+  </div>
+
+  <div id="nivel">
+    <h3>Nivel</h3>
+    <p>2 - Organizat</p>
+  </div>
+
+  <div id="progres">
+    <h3>Progresul zilei</h3>
+    <p>3 din 5 sarcini finalizate</p>
+    <progress value="3" max="5"></progress>
+  </div>
+
+  <div id="provocare">
+    <h2>Provocarea zilei</h2>
+    <p>Testează-ți cunoștințele despre organizarea timpului!</p>
+
+    <button id="start">START PROVOCARE</button>
+
+    <div id="quiz">
+      <p id="numar-intrebare"></p>
+      <p id="intrebare"></p>
+      <div id="raspunsuri"></div>
+      <p id="mesaj" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <nav id="meniu">
+    <button id="btn-planificator">Planificator</button>
+    <button id="btn-rutina">Rutina</button>
+    <button id="btn-timer">Timer</button>
+    <button id="btn-jocuri">Jocuri interactive</button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
